@@ -1,8 +1,4 @@
 repositories:
-  dummy/dummy_autoware_packages:
-    type: git
-    url: https://github.com/Shin-kyoto/dummy_autoware_packages.git
-    version: v0.0.1
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
@@ -39,6 +35,10 @@ repositories:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
     version: tier4/main
+  dummy/dummy_autoware_packages:
+    type: git
+    url: https://github.com/Shin-kyoto/dummy_autoware_packages.git
+    version: v0.0.1
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
@@ -90,7 +90,7 @@ repositories:
   universe/external/glog:
     type: git
     url: https://github.com/tier4/glog.git
-    version: v0.6.0
+    version: v0.7.0
   universe/external/llh_converter:
     type: git
     url: https://github.com/MapIV/llh_converter.git
