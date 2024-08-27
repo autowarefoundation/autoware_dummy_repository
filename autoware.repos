@@ -1,8 +1,4 @@
 repositories:
-  dummy/dummy_autoware_packages:
-    type: git
-    url: https://github.com/Shin-kyoto/dummy_autoware_packages.git
-    version: v0.0.1
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
@@ -39,6 +35,10 @@ repositories:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
     version: tier4/main
+  dummy/dummy_autoware_packages:
+    type: git
+    url: https://github.com/Shin-kyoto/dummy_autoware_packages.git
+    version: v0.0.2
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
