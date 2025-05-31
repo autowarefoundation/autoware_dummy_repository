@@ -2,7 +2,7 @@
 Changelog for package dummy_package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.1 (2025-05-31)
+------------------
 * add: `dummy_package`
 * Contributors: Junya Sasaki
