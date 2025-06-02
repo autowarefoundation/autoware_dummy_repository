@@ -1,12 +1,35 @@
-name: Tag release after PR merge
+name: tag release after PR merge
 
 on:
   pull_request:
     types: [closed]
+  workflow_dispatch:
+    inputs:
+      source_branch:
+        description: 'Branch to merge from'
+        required: true
+        default: 'main'
+      target_branch:
+        description: 'Branch to merge into'
+        required: true
+        default: 'humble'
+      bump_version:
+        description: 'Version bump type'
+        required: true
+        default: 'patch'
+      repository_owner:
+        description: 'Repository owner (org or user)'
+        required: false
+        default: 'autowarefoundation'
 
 jobs:
   tag-on-merge:
-    if: github.event.pull_request.merged == true
+    if: |
+      github.event.pull_request.merged == true &&
+      contains(
+        join(github.event.pull_request.labels.*.name, ','),
+        'release:bump-version'
+      )
     runs-on: ubuntu-22.04
     steps:
       - name: Generate token
