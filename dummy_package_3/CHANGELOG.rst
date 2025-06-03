@@ -1,5 +1,5 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package dummy_package_2
+Changelog for package dummy_package_3
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 0.0.1 (2025-06-03)
@@ -16,5 +16,8 @@ Changelog for package dummy_package_2
 * 0.0.2
 * fix: to be consistent version in all package.xml(s)
 * chore: update all "CHANGELOG.rst"s
-* add: `dummy_package_2`
+* Merge pull request `#179 <https://github.com/autowarefoundation/autoware_dummy_repository/issues/179>`_ from autowarefoundation/testing/ci/2025-06-02/release-bot-tests
+  Testing/ci/2025 06 02/release bot tests
+* bug: use consistent version
+* debug: add `dummy_package_3`
 * Contributors: Junya Sasaki, github-actions

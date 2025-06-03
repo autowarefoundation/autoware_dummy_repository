@@ -3,24 +3,6 @@ name: tag release after PR merge
 on:
   pull_request:
     types: [closed]
-  workflow_dispatch:
-    inputs:
-      source_branch:
-        description: 'Branch to merge from'
-        required: true
-        default: 'main'
-      target_branch:
-        description: 'Branch to merge into'
-        required: true
-        default: 'humble'
-      bump_version:
-        description: 'Version bump type'
-        required: true
-        default: 'patch'
-      repository_owner:
-        description: 'Repository owner (org or user)'
-        required: false
-        default: 'autowarefoundation'
 
 jobs:
   tag-on-merge:
@@ -40,7 +22,7 @@ jobs:
           private-key: ${{ secrets.PRIVATE_KEY }}
 
       - name: Run
-        uses: sasakisasaki/autoware-github-actions/release-new-tag-when-merged@testing/release-new-version
+        uses: autowarefoundation/autoware-github-actions/release-new-tag-when-merged@v1
         with:
           github_token: ${{ steps.generate-token.outputs.token }}
           commit_sha: ${{ github.event.pull_request.merge_commit_sha }}
