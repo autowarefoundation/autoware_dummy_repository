@@ -2,6 +2,11 @@
 Changelog for package dummy_package_2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.4 (2025-06-13)
+------------------
+* fix: to be consistent version in all package.xml(s)
+* Contributors: github-actions
+
 0.0.2 (2025-06-03)
 ------------------
 * fix: to be consistent version in all package.xml(s)
