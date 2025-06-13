@@ -2,8 +2,8 @@
 Changelog for package dummy_package_3
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.4 (2025-06-13)
+------------------
 * fix: to be consistent version in all package.xml(s)
 * Contributors: github-actions
 
