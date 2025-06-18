@@ -5,6 +5,15 @@ Changelog for package dummy_package_3
 0.1.0 (2025-06-18)
 ------------------
 
+Forthcoming
+-----------
+* fix: to be consistent version in all package.xml(s)
+* Merge pull request `#192 <https://github.com/autowarefoundation/autoware_dummy_repository/issues/192>`_ from autowarefoundation/bump/testing/release-to-main-with-minor-15728259511
+  chore: bump version (0.1.0) and update changelog
+* 0.1.0
+* chore: update all "CHANGELOG.rst"s
+* Contributors: Junya Sasaki, github-actions
+
 0.0.3 (2025-06-13)
 ------------------
 
