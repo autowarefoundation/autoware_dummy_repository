@@ -5,8 +5,8 @@ Changelog for package dummy_package
 0.1.0 (2025-06-18)
 ------------------
 
-Forthcoming
------------
+0.1.1 (2025-06-18)
+------------------
 * Merge pull request `#192 <https://github.com/autowarefoundation/autoware_dummy_repository/issues/192>`_ from autowarefoundation/bump/testing/release-to-main-with-minor-15728259511
   chore: bump version (0.1.0) and update changelog
 * 0.1.0
